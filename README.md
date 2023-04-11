@@ -39,7 +39,7 @@ Move the files to the main directory of the diff-svc repository.
 - **OUTPUT_NAME**，输出音频文件的名称；
 - **PROJECT_NAME**，diff-svc模型的项目名，务必与训练时的命名相同；
 - **MODEL_PATH**，diff-svc模型路径；
-- **CONFIG_PATH**，diff-svc模型config路径
+- **CONFIG_PATH**，diff-svc模型config路径。
 
 Modify the following parameters in main.py: 
 
@@ -64,7 +64,7 @@ CONFIG_PATH = "./config.yaml"  # Model config path, correspond to the model
 
 在**TEXT_INPUT_PATH**指向的txt文件中填写待转换文本。换行（回车键）代表换段，每段单独生成一个音频文件。
 
-Place the text to be converted in the txt file of **TEXT_INPUT_PATH**. A newline (Enter key) means a new segment, and each segment can generate independent audio.
+Place the text to be converted in the txt file of **TEXT_INPUT_PATH**. A newline (Enter key) means a new segment, and each segment can generate an independent audio.
 
 ### step 4
 
@@ -82,7 +82,7 @@ $ python main.py
 
 如果音色转换的效果不理想，可以在main.py中修改**run_clip**的参数。具体修改策略请参考diff-svc仓库的教程文档。
 
-If the effect of voice conversion does not meet your expectations, you can modify the parameters of the **run_clip** in the file. For modification strategies, please refer to the tutorial documentation of diff-svc repository.
+If the effect of voice conversion does not meet your expectations, you can modify the parameters of **run_clip** in the main.py. For modification strategies, please refer to the tutorial documentation of diff-svc repository.
 
 
 
