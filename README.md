@@ -6,7 +6,7 @@
 
 本仓库基于edge-tts与diff-svc，简单实现了文本控制语音生成与音色转换技术的结合。
 
-This repo is based on edge-tts and diff-svc, and simply realizes the combination of text to speech and singing voice conversion.
+This repo is based on edge-tts and diff-svc, and realizes the combination of text to speech and singing voice conversion.
 
 
 
